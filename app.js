@@ -169,7 +169,7 @@ function Run() {
     ctx.font = fontSize + "px serif";
     ctx.fillStyle = getRandomColor();
     ctx.fillText("HAPPY NEW YEAR 2024", c.width / 5, c.height / 2);
-    ctx.fillText("Best Wishes", c.width / 2.5, c.height / 1.8);
+    ctx.fillText("Best Wishes", c.width / 2.5, c.height / 1.5);
   }, 1500);
 
   requestAnimationFrame(Run);

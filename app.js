@@ -168,13 +168,14 @@ function Run() {
     var fontSize = Math.min(window.innerWidth / 17, 60);
     ctx.font = fontSize + "px serif";
     ctx.fillStyle = getRandomColor();
-    ctx.fillText("HAPPY NEW YEAR 2026, lady Rose", c.width / 10, c.height / 2);
-    ctx.fillText("Best Wishes for this new year.", c.width / 6.5, c.height / 1.5);
+    ctx.fillText("HAPPY NEW YEAR 2026, lady Rose", c.width / 12, c.height / 2);
+    ctx.fillText("Best Wishes for this new year.", c.width / 6.5, c.height / 1.75);
     ctx.fillText("Health, Peace and God Grace in your life and that of your family", c.width / 8, c.height / 1.5);
   }, 1500);
 
   requestAnimationFrame(Run);
 }
+
 
 
 
